@@ -5,7 +5,7 @@
   "main": "ejercicio-1.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov",
     "start": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
     "doc": "typedoc"
   },
@@ -24,10 +24,11 @@
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "ts-node": "^10.9.1",
-    "tsc-watch": "^6.0.0"
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.28",
+    "typescript": "^5.0.2"
   },
   "dependencies": {
-    "prompt-sync": "^4.2.0",
-    "typedoc": "^0.23.26"
+    "prompt-sync": "^4.2.0"
   }
 }
