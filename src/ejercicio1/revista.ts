@@ -84,5 +84,6 @@ import { Observer } from "./observer";
     onNewNumber() {
         this.newNumber = true;
         this.notify();
+        return true;
     }
 }
