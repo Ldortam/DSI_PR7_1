@@ -1,7 +1,11 @@
+import { Observable } from "./observable";
+import { Observer } from "./observer";
+import { Revista } from "./revista";
+
 /**
  * Clase Suscriptor
  */
-class Suscriptor implements Observer {
+export class Suscriptor implements Observer {
     /**
      * Constructor de la clase
      * @param id Número identificativo 

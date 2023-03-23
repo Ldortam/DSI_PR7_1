@@ -1,7 +1,9 @@
+import { Observer } from "./observer";
+
 /**
  * Interface for observable classes
  */
- interface Observable {
+ export interface Observable {
     /**
      * Método de subscripción
      * @param observer Elemento que observa

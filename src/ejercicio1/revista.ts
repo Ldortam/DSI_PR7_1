@@ -1,8 +1,10 @@
+import { Observable } from "./observable";
+import { Observer } from "./observer";
 
 /**
  * Clase Revista
  */
-class Revista implements Observable {
+ export class Revista implements Observable {
     private subscribers: Observer[] = [];
 
     private newNumber: boolean = false; 
